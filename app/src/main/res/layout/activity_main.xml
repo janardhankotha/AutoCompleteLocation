@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+            <AutoCompleteTextView
+                android:id="@+id/autotextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search Another Location"
+                android:textSize="12sp"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="#000000"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:singleLine="true"
+                />
+
+</RelativeLayout>
